@@ -1,0 +1,32 @@
+.layout {
+  width: 100%;
+  display: flex;
+}
+.leftSidebar {
+    width: 200px;
+    height: 100vh;
+    padding: 10px;
+    border-right: 1px solid #eee;
+}
+.leftSidebar ul {
+  margin-top: 30px;
+}
+.leftSidebar ul li {
+  margin: 2px 0;
+}
+
+.leftSidebar button {
+    width: 100%;
+    text-align: right;
+    background-color: #eee;
+    padding: 8px;
+    font-weight: bold;
+}
+.leftSidebar ul li.activeMenu button {
+  background-color: #670047;
+  color: white;
+}
+.contentArea {
+  padding: 10px;
+  width: 100%;
+}

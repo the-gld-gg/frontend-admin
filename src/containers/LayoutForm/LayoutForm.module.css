@@ -1,0 +1,7 @@
+.layout {
+  padding: 5px;
+  width: 100%;
+}
+.layout input {
+  border-radius: 0;
+}
