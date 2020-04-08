@@ -58,6 +58,13 @@ const LoginForm = (props) => {
                   });
                   return;
                 }
+                if (response.data.data.role !== "1"){
+                  setResult({
+                    messages: ["You do not have access"],
+                    status: "error",
+                  });
+                  return
+                }
 
                 localStorage.setItem(
                   "user",
